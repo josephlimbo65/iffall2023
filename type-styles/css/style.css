@@ -1,0 +1,63 @@
+html{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: peachpuff;
+}
+p1{
+    font-size: 5rem;
+}
+p2{
+    font-size: 2rem;
+}
+p3{
+    font-size: 15px;
+}
+p4{
+    font-size: 30px;
+}
+p5{
+    font-size: 30px;
+    font-weight:bold;
+}
+p6{
+    font-size: 30px;
+    font-style: italic;
+}
+p7{
+    letter-spacing: .3em;
+    font-size: 30px;
+}
+p8{
+    letter-spacing: -.06em;
+    font-size: 30px;
+}
+p9{
+    font-size: 30px;
+    text-decoration: underline;
+}
+p10{
+    font-size: 30px;
+    text-decoration: line-through;
+}
+p11{
+    font-size: 30px;
+    text-decoration: overline;
+}
+p12{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+p13{
+    font-size: 30px;
+    text-transform: lowercase;
+}
+p14{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+div{
+    font-size: 40px;
+    color: grey;
+}
+body{
+    margin:6rem;
+}
