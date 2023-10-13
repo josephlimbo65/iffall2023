@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+header{
+
+    background-image: url('../images/img00.jpeg');
+
+
+    background-size: cover;
+
+
+    background-position: center;
+    
+    text-align: center;
+
+    padding-top: 170px;
+
+    font-weight: bold;
+
+    padding-bottom: 190px;
+
+
+    letter-spacing: .08rem;
+   
+
+
+  
+    color: white;
+}
+
+
+.main-column1{
+
+    width: 959px;
+
+
+    margin: auto;
+}
+h1,h2,h3,h4,p{
+    margin: 0;
+}
+h1{
+
+    font-size: 83px;
+    line-height: 1.2;
+
+
+    margin-bottom:   20px;
+
+
+   font-weight:  900;
+
+    letter-spacing: .02rem;
+
+}
+h2{
+
+    padding-bottom: 10px;
+
+
+    text-align: center;
+
+    font-size:  42px;
+   
+    font-weight: bold;
+    
+}
+
+header h2{
+
+    font-size:  28px;
+
+
+
+    line-height: .4;
+
+
+    font-weight: bold;
+
+
+}
+section{
+
+    padding-top: 30px;
+
+    padding-bottom: 6px;
+
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.secondportion {
+    background-size: cover;
+   
+    padding-bottom: 30px;
+
+    background-color: white;
+  
+   font-weight:   bold;
+  
+}
+
+
+.mountain1{
+
+    width:   400px;
+
+
+    float: right;
+    height:  300px;
+
+    margin: 20px -5px 25px 45px;
+}
+
+
+p{
+    margin-top: 17px;
+
+    line-height: 140%;
+    font-size: 18px;
+
+
+    
+}
+
+.collage li img {
+
+
+    width: 200px;
+    height: 150px;
+    float: left;
+
+    margin-right: 10px;
+
+    
+}
+
+
+.mountain{
+    width: 200px;
+    height: 150px;
+}
+
+
+.smallimages {
+
+    width: 960px;
+    
+    margin: auto;
+}
+
+.collage {
+    grid-template-columns:  1fr   1fr;
+
+    padding-top: 15px;
+    display: grid;
+    padding: 0;
+
+   
+}
+
+.collage li {
+    margin-bottom: 20px;
+
+    padding-top:2.5px;
+    align-items:   left;
+    display:   inline-block;
+
+    width: 100%;
+
+   
+}
+
+.thirdportion{
+    background-color: lightskyblue;
+    background-size: cover;
+   
+    padding-bottom: 80px;
+}
+
+
+
+
+
+
+.thirdportion h2{
+    margin-top: 15px;
+}
+
+
+
+
+
+.fourthportion h4{
+    margin-block: 40px;
+
+
+    font-size:  17px;
+    
+    margin-left: 237px;
+    
+    font-weight: bold;
+}
+
+
+.firstportion{
+    background-size: cover;
+
+   
+    padding-bottom: 60px;
+
+    background-color: pink;
+
+    
+}
+
+
+
+.fourthportion{
+    background-color: gray;
+
+
+    background-size: cover;
+
+    overflow-x: hidden;
+    padding-bottom: -10px;
+
+    padding-left: 175px;
+
+}
+
+
+.finalsection p{
+    width: 720px;
+
+
+    padding-left: 550px;
+
+    font-size: 27px;
+
+    text-align: center;
+  
+
+}
