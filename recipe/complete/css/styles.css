@@ -1,5 +1,5 @@
 p{
-    font-size: 20px;
+ 
     color: gray;
 }
 li{
@@ -10,3 +10,9 @@ p4{
     text-align: center;
 }
 
+@media(max-width:640px){
+    .fourth{
+        width: 40px;
+        height: 40px;
+    }
+}
