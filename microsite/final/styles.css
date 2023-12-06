@@ -19,7 +19,6 @@ body {
     padding: 0;
     font-family: 'Domine', serif;
 	overflow-x: hidden; 
-
 }
 h1,h2,h3,h4,h5,h6{
 	text-align: center;
@@ -544,6 +543,11 @@ h3{
 
 /* Media query for smaller screens */
 @media screen and (max-width: 600px) {
+    body{
+        display: inline-block;
+            box-sizing: border-box;
+    }
+
     .content-area h2 {
         font-size: 1.5px;
        text-align: left;
@@ -586,6 +590,8 @@ h3{
     align-items: center;
     padding: 10% 12%;
     position: relative; /* Added position relative */
+    display: inline-block;
+    box-sizing: border-box;
 }
 
 #hero::after {
@@ -834,6 +840,10 @@ transition: .3s ease filter;
 
 /* Tablet Styles */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+            display: inline-block;
+            box-sizing: border-box;
+        }
     .banner-area h2 {
         font-size: 50px;
     }
@@ -906,3 +916,4 @@ transition: .3s ease filter;
 .wrapper p {
     max-width: 1100px;
 }
+
